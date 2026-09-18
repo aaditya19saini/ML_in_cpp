@@ -27,6 +27,10 @@ double getcovarinace(vector<double>valueA,vector<double>valueB){
     }
     return covariance;
 
+vector<double> getcoeff(const vector<vector<double>> %dataset){
+
+}
+
 }
 int main(){
     return 0;
