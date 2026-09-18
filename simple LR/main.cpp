@@ -15,5 +15,15 @@ double getvariance(vector<double>value){
     for (auto value:values){
         variance+=pow(value-mean,2);
     }
+    return variance;
+
+}
+double getcovarinace(vector<double>valueA,vector<double>valueB){
+    double meanA=getmean(valueA);
+    double meanB=getmean(valueB);
+    double covariance=0;
+    for (auto value:values){
+
+    }
 
 }
